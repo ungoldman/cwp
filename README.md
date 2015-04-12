@@ -29,7 +29,7 @@ npm install cwp
 var cwp = require('cwp')
 ```
 
-The `path.join` style of notation is supported.
+The [`path.join`](https://nodejs.org/api/path.html#path_path_join_path1_path2) style of notation is supported.
 
 ```js
 var file = cwp('path', 'to', 'file')
