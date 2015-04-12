@@ -1,0 +1,32 @@
+{
+  "name": "cwf",
+  "description": "Get path to file from current working directory.",
+  "version": "0.1.0",
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "bugs": {
+    "url": "https://github.com/ngoldman/cwf/issues"
+  },
+  "devDependencies": {
+    "standard": "^3.3.2"
+  },
+  "homepage": "https://github.com/ngoldman/cwf",
+  "keywords": [
+    "current",
+    "cwd",
+    "directory",
+    "file",
+    "join",
+    "local",
+    "path",
+    "working"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngoldman/cwf.git"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
