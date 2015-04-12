@@ -55,7 +55,7 @@ Given node is running in `/Users/ng/dev/github/cwp/`, here are some examples.
 
 ```js
 cwp('package.json')
-// -> '/Users/ng/dev/github/cwp/test/index.js'
+// -> '/Users/ng/dev/github/cwp/package.json'
 
 cwp('test', 'index.js')
 // -> '/Users/ng/dev/github/cwp/test/index.js'
