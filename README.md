@@ -29,7 +29,7 @@ npm install cwf
 var cwf = require('cwf')
 ```
 
-The `path.join` style notation is supported.
+The `path.join` style of notation is supported.
 
 ```js
 var file = cwf('path', 'to', 'file')
@@ -47,6 +47,8 @@ They are interchangeable.
 var file = cwf('path/to/dir', 'file')
 ```
 
+`cwf` returns a string corresponding to the file path, **not** the file itself. You still need to use [`fs`](https://nodejs.org/api/fs.html) or something like it to interact with the file.
+
 ## Example
 
 Given node is running in `/Users/ng/dev/github/cwf/`, here are some examples.
@@ -55,7 +57,7 @@ Given node is running in `/Users/ng/dev/github/cwf/`, here are some examples.
 cwf('package.json')
 // -> '/Users/ng/dev/github/cwf/test/index.js'
 
-cwf('test', 'index.js') // {{process.cwd}}/test/index.js
+cwf('test', 'index.js')
 // -> '/Users/ng/dev/github/cwf/test/index.js'
 
 cwf('lib/secret/dir', 'file')
