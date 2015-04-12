@@ -15,8 +15,6 @@ Get a path string relative to the current working directory.
 
 i.e., **c**urrent **w**orking **p**ath.
 
-Should respect OS file system differences (please let me know if I missed something).
-
 ## Install
 
 ```
