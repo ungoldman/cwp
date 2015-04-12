@@ -1,6 +1,6 @@
 var path = require('path')
 
-module.exports = function cwf () {
+module.exports = function cwp () {
   var args = Array.prototype.slice.call(arguments)
   var arr = []
 

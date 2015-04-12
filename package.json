@@ -1,15 +1,15 @@
 {
-  "name": "cwf",
-  "description": "Get path to file from current working directory.",
-  "version": "0.1.1",
+  "name": "cwp",
+  "description": "Get a path string relative to the current working directory.",
+  "version": "0.1.0",
   "author": "Nate Goldman <nate@ngoldman.me>",
   "bugs": {
-    "url": "https://github.com/ngoldman/cwf/issues"
+    "url": "https://github.com/ngoldman/cwp/issues"
   },
   "devDependencies": {
     "standard": "^3.3.2"
   },
-  "homepage": "https://github.com/ngoldman/cwf",
+  "homepage": "https://github.com/ngoldman/cwp",
   "keywords": [
     "current",
     "cwd",
@@ -24,7 +24,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/cwf.git"
+    "url": "https://github.com/ngoldman/cwp.git"
   },
   "scripts": {
     "test": "standard"
