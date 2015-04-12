@@ -1,7 +1,7 @@
 {
   "name": "cwp",
   "description": "Get a path string relative to the current working directory.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Nate Goldman <nate@ngoldman.me>",
   "bugs": {
     "url": "https://github.com/ngoldman/cwp/issues"
