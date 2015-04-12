@@ -27,29 +27,14 @@ npm install cwp
 
 ```js
 var cwp = require('cwp')
-```
-
-The [`path.join`](https://nodejs.org/api/path.html#path_path_join_path1_path2) style of notation is supported.
-
-```js
-var file = cwp('path', 'to', 'file')
-```
-
-The Unix filesystem style of notation is also supported.
-
-```js
-var file = cwp('path/to/file')
-```
-
-They are interchangeable.
-
-```js
-var file = cwp('path/to/dir', 'file')
+var file = cwp('path/to', 'file')
 ```
 
 `cwp` returns a string corresponding to the file path, **not** the file itself. You still need to use [`fs`](https://nodejs.org/api/fs.html) or something like it to interact with the file.
 
-## Example
+Unix filesystem notation, strings for each entity, or a mix of both are all supported. The API is the same as [`path.join`](https://nodejs.org/api/path.html#path_path_join_path1_path2) -- the only difference is that the current working directory is always automatically prepended.
+
+### Example
 
 Given node is running in `/Users/ng/dev/github/cwp/`, here are some examples.
 
@@ -66,10 +51,6 @@ cwp('lib/secret/dir', 'file')
 cwp('../../../.ssh/id_rsa')
 // -> '/Users/ng/.ssh/id_rsa'
 ```
-
-## Todo
-
-* tests! esp. to make sure this works outside of mac/unix
 
 ## Contributing
 
