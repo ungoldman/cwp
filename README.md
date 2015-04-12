@@ -34,7 +34,7 @@ Unix filesystem notation, strings for each entity, or a mix of both are all supp
 
 ### Example
 
-Given node is running in `/Users/ng/dev/github/cwp/`, here are some examples.
+Given the process is running in `/Users/ng/dev/github/cwp/`, here are some examples.
 
 ```js
 cwp('package.json')
