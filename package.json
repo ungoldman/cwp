@@ -7,7 +7,9 @@
     "url": "https://github.com/ngoldman/cwp/issues"
   },
   "devDependencies": {
-    "standard": "^3.3.2"
+    "faucet": "0.0.1",
+    "standard": "^3.3.2",
+    "tape": "^4.0.0"
   },
   "homepage": "https://github.com/ngoldman/cwp",
   "keywords": [
@@ -27,6 +29,6 @@
     "url": "https://github.com/ngoldman/cwp.git"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard && faucet"
   }
 }
