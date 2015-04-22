@@ -2,18 +2,17 @@
 
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
-[![stability][stability-image]][stability-url]
 
 [npm-image]: https://img.shields.io/npm/v/cwp.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/cwp
 [travis-image]: https://img.shields.io/travis/ngoldman/cwp.svg?style=flat-square
 [travis-url]: https://travis-ci.org/ngoldman/cwp
-[stability-image]: https://img.shields.io/badge/stability-1%20--%20experimental-yellow.svg?style=flat-square
-[stability-url]: https://nodejs.org/api/documentation.html#documentation_stability_index
 
 Get a path string relative to the current working directory.
 
 i.e., **c**urrent **w**orking **p**ath.
+
+All it really does is pass arguments to `path.join` with `process.cwd()` prepended. A very minimal (perhaps totally unnecessary) shortcut.
 
 ## Install
 
