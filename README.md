@@ -5,14 +5,16 @@
 
 [npm-image]: https://img.shields.io/npm/v/cwp.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/cwp
-[travis-image]: https://img.shields.io/travis/ngoldman/cwp.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ngoldman/cwp
+[travis-image]: https://img.shields.io/travis/ungoldman/cwp.svg?style=flat-square
+[travis-url]: https://travis-ci.org/ungoldman/cwp
 
 Get a path string relative to the current working directory.
 
 i.e., **c**urrent **w**orking **p**ath.
 
 All it really does is pass arguments to `path.join` with `process.cwd()` prepended. A very minimal (perhaps totally unnecessary) shortcut.
+
+**disclaimer**: this is dumb, please use [`path.resolve`](https://nodejs.org/docs/latest/api/path.html#path_path_resolve_paths) instead.
 
 ## Install
 
