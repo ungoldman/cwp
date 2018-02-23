@@ -10,11 +10,13 @@
 
 Get a path string relative to the current working directory.
 
-i.e., **c**urrent **w**orking **p**ath.
+i.e., **C**urrent **W**orking **P**ath.
 
-All it really does is pass arguments to `path.join` with `process.cwd()` prepended. A very minimal (perhaps totally unnecessary) shortcut.
+## About
 
-**disclaimer**: this is dumb, please use [`path.resolve`](https://nodejs.org/docs/latest/api/path.html#path_path_resolve_paths) instead.
+It just pass arguments to `path.join` with `process.cwd()` prepended.
+
+A very minimal (perhaps totally unnecessary) shortcut.
 
 ## Install
 
@@ -29,7 +31,7 @@ var cwp = require('cwp')
 var file = cwp('path/to', 'file')
 ```
 
-`cwp` returns a string corresponding to the file path, **not** the file itself. You still need to use [`fs`](https://nodejs.org/api/fs.html) or something like it to interact with the file.
+`cwp` returns a string corresponding to the file path, **not** the file itself. You still need to use [`fs`](https://nodejs.org/api/fs.html) or something like it to read or write a file.
 
 Unix filesystem notation, strings for each entity, or a mix of both are all supported. The API is the same as [`path.join`](https://nodejs.org/api/path.html#path_path_join_path1_path2) -- the only difference is that the current working directory is always automatically prepended.
 
