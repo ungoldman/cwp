@@ -2,16 +2,16 @@
   "name": "cwp",
   "description": "Get a path string relative to the current working directory.",
   "version": "1.0.0",
-  "author": "Nate Goldman <nate@ngoldman.me>",
+  "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bugs": {
-    "url": "https://github.com/ngoldman/cwp/issues"
+    "url": "https://github.com/ungoldman/cwp/issues"
   },
   "devDependencies": {
     "standard": "^11.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.9.0"
   },
-  "homepage": "https://github.com/ngoldman/cwp",
+  "homepage": "https://github.com/ungoldman/cwp",
   "keywords": [
     "current",
     "cwd",
@@ -26,7 +26,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/cwp.git"
+    "url": "git+https://github.com/ungoldman/cwp.git"
   },
   "scripts": {
     "test": "standard && tape test.js | tap-spec"
