@@ -1,4 +1,4 @@
-var cwp = require('..')
+var cwp = require('./')
 var test = require('tape')
 var path = require('path')
 var cwd = process.cwd()
