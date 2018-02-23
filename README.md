@@ -53,9 +53,16 @@ cwp('../../../.ssh/id_rsa')
 // -> '/Users/ng/.ssh/id_rsa'
 ```
 
+## Tests
+
+```
+npm install
+npm test
+```
+
 ## Contributing
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
 
 ## License
 
